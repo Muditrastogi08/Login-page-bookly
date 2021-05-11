@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKLY</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    /*css reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('PICS/wallpaper.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
+
+    .logo {
+        display: block;
+        width: 27%;
+        height: 76px;
+        margin: 2% auto;
+        color: #0089ff;
+        font-size: 366%;
+        text-align: center;
+        font-family: 'Fascinate', cursive;
+        font-family: 'Fredoka One', cursive;
+    }
+
+    .left {
+        position: absolute;
+        top: 39px;
+        left: 34px;
+        display: inline-block;
+    }
+
+    .left img {
+        width: 97px;
+    }
+
+    .middle {
+        display: block;
+        width: 53%;
+        margin: 3% auto;
+
+
+    }
+
+    .right {
+        position: absolute;
+        top: 34px;
+        right: 34px;
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        color: #ff0057;
+        font-family: 'Akaya Telivigala', cursive;
+        text-decoration: none;
+        padding: 34px;
+        font-size: 120%;
+
+
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: crimson;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: white;
+        text-decoration: underline;
+    }
+
+    .buyer {
+        border: 2px solid black;
+        border-radius: 54px;
+        margin: 71px 136px;
+        padding: 90px 13px;
+        width: 73%;
+
+
+    }
+
+     .buyer h1 {
+         font-size: 200%;
+         text-align: center;
+         color: chartreuse;
+
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        display: block;
+        width: 422px;
+        padding: 8px;
+        border: 2px solid black;
+        margin: 2px auto;
+        border-radius: 12px;
+        font-size: 120%;
+    }
+
+    .submit {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 5% 46%;
+        padding: 1% 1%;
+        cursor: pointer;
+
+    }
+    .submit:hover{
+        background-color: grey;
+        text-decoration: underline;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="logo">
+            BOOKLY
+        </div>
+        <div class="left">
+            <img src="PICS/LOGO.jpg" alt="">
+        </div>
+        </div>
+        <!-- left box for navigation -->
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CATEGORY</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <!-- left box for buttons -->
+        <div class="right">
+            <button class="btn">Customer Service</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="buyer">
+        <h1>LOGIN </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your D.O.B">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Password">
+            </div>
+            <button class="submit">SUBMIT</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
